@@ -73,3 +73,37 @@ This M code in Power Query restructures customer purchase data from `purchase-li
 **Output:**
 
 A clean table with columns: "Customer ID", "Purchase Date" (in date format), and "Purchase Value", representing each individual customer purchase. This format is suitable for analyzing purchase trends over time.
+
+# Data Visualizations and Analysis Findings
+
+This section summarizes the key findings from the data visualization and analysis conducted for the marketing campaign.
+
+## 1. Correlation between Sales and Income (R² Value)
+
+**Formula Applied:**
+$$ R^2 = 1 - \frac{SSR}{SST} $$
+
+**Finding:**
+There is a strong positive correlation between average income and average sales.
+
+## 2. Correlation between Customer Ratings and Product Return Rate (R² Value)
+
+**Formula Applied (Pearson Correlation Coefficient - r):**
+$$ r = \frac{n(\sum xy) - (\sum x)(\sum y)}{\sqrt{[n(\sum x^2) - (\sum x)^2][n(\sum y^2) - (\sum y)^2]}} $$
+(Note: The R² value would be the square of the calculated 'r'.)
+
+**Finding:**
+There is a strong negative correlation between customer ratings and return rate.
+
+## 4. Linear Regression Formulas to Predict Customer Income from Customer Sales
+predict customer income = ('Customer List'[Last 6 Months Purchases]-[Intercept])/[Slope]
+predict customer income = (customer sales+722.14)/0.01
+
+## 5. Customer with the Highest Predicted Income
+
+[Insert Visualization Here - e.g., a bar chart or table highlighting the customer with the highest predicted income. The text "photo" indicates a visual was present in the original description.]
+
+## 6. Most Advertised Product
+
+
+
