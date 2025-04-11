@@ -108,8 +108,8 @@ There is a strong negative correlation between customer ratings and return rate.
 
 
 ## 6. Most Advertised Product
-Products in the $25-$350 price range should be advertised the most. as they are the highest customer rate and the lowest return rate.
-The products in this category include:
-![Alt text](path/to/your/image.png)
+Products priced between $25 and $350 exhibit the highest customer ratings and the lowest return rates, making them prime candidates for increased advertising efforts.
+This key product category includes:
+![Most Advertised Product](Most%20Advertised%20Product.JPG)
 
 
