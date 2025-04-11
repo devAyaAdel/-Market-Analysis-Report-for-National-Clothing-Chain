@@ -101,7 +101,7 @@ predict customer income = (customer sales+722.14)/0.01
 
 ## 5. Top 5 Customers with the Highest Predicted Income
 
-![Top 5 Customers by Predicted Income](path/to/top_5_income_chart.png)
+![Top 5 Customers by Predicted Income](Top 5 Customers by predicted income.JPG)
 
 
 ## 6. Most Advertised Product
