@@ -80,11 +80,8 @@ This section summarizes the key findings from the data visualization and analysi
 
 ## 1. Correlation between Sales and Income (R² Value)
 
-$$ R^2 = 1 - \frac{SSR}{SST} $$
-
-**Finding:**
-There is a strong positive correlation between average income and average sales.
-predict customer income = (customer sales+722.14)/0.01
+* There is a strong positive correlation between average income and average sales.
+* predict customer income = (customer sales+722.14)/0.01
 
 
 ![Scatter Plot of Average Income and Average Sales](Scatter%20Plot%20of%20Average%20Income%20and%20Average%20Sales.JPG)
