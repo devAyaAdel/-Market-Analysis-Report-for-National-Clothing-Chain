@@ -80,16 +80,20 @@ This section summarizes the key findings from the data visualization and analysi
 
 ## 1. Correlation between Sales and Income (R² Value)
 
-**Formula Applied:**
 $$ R^2 = 1 - \frac{SSR}{SST} $$
 
 **Finding:**
 There is a strong positive correlation between average income and average sales.
 
+![Scatter Plot of Average Income and Average Sales](Scatter%20Plot%20of%20Average%20Income%20and%20Average%20Sales.JPG)
+
 ## 2. Correlation between Customer Ratings and Product Return Rate (R² Value)
 
-**Formula Applied (Pearson Correlation Coefficient - r):**
 $$ r = \frac{n(\sum xy) - (\sum x)(\sum y)}{\sqrt{[n(\sum x^2) - (\sum x)^2][n(\sum y^2) - (\sum y)^2]}} $$
+
+**Formula Applied:**
+
+**Formula Applied (Pearson Correlation Coefficient - r):**
 (Note: The R² value would be the square of the calculated 'r'.)
 
 **Finding:**
@@ -101,7 +105,7 @@ predict customer income = (customer sales+722.14)/0.01
 
 ## 5. Top 5 Customers with the Highest Predicted Income
 
-![Top 5 Customers by Predicted Income](Top 5 Customers by predicted income.JPG)
+![Top 5 Customers by Predicted Income](Top%205%20Customers%20by%20predicted%20income.JPG)
 
 
 ## 6. Most Advertised Product
