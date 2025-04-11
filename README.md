@@ -99,11 +99,12 @@ There is a strong negative correlation between customer ratings and return rate.
 predict customer income = ('Customer List'[Last 6 Months Purchases]-[Intercept])/[Slope]
 predict customer income = (customer sales+722.14)/0.01
 
-## 5. Customer with the Highest Predicted Income
+## 5. Top 5 Customers with the Highest Predicted Income
 
-[Insert Visualization Here - e.g., a bar chart or table highlighting the customer with the highest predicted income. The text "photo" indicates a visual was present in the original description.]
+![Top 5 Customers by Predicted Income](path/to/top_5_income_chart.png)
+
 
 ## 6. Most Advertised Product
-
+![Alt text](path/to/your/image.png)
 
 
