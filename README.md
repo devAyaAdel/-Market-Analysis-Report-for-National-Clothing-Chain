@@ -84,6 +84,8 @@ $$ R^2 = 1 - \frac{SSR}{SST} $$
 
 **Finding:**
 There is a strong positive correlation between average income and average sales.
+predict customer income = (customer sales+722.14)/0.01
+
 
 ![Scatter Plot of Average Income and Average Sales](Scatter%20Plot%20of%20Average%20Income%20and%20Average%20Sales.JPG)
 
@@ -91,17 +93,14 @@ There is a strong positive correlation between average income and average sales.
 
 $$ r = \frac{n(\sum xy) - (\sum x)(\sum y)}{\sqrt{[n(\sum x^2) - (\sum x)^2][n(\sum y^2) - (\sum y)^2]}} $$
 
-**Formula Applied:**
 
 **Formula Applied (Pearson Correlation Coefficient - r):**
 (Note: The R² value would be the square of the calculated 'r'.)
 
 **Finding:**
 There is a strong negative correlation between customer ratings and return rate.
+![Customer Rating (stars) and Return Rate](Customer%20Rating%20(stars)%20and%20Return%20Rate.JPG)
 
-## 4. Linear Regression Formulas to Predict Customer Income from Customer Sales
-predict customer income = ('Customer List'[Last 6 Months Purchases]-[Intercept])/[Slope]
-predict customer income = (customer sales+722.14)/0.01
 
 ## 5. Top 5 Customers with the Highest Predicted Income
 
@@ -109,6 +108,8 @@ predict customer income = (customer sales+722.14)/0.01
 
 
 ## 6. Most Advertised Product
+Products in the $25-$350 price range should be advertised the most. as they are the highest customer rate and the lowest return rate.
+The products in this category include:
 ![Alt text](path/to/your/image.png)
 
 
