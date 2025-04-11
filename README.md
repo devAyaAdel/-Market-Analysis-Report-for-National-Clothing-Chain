@@ -112,4 +112,15 @@ Products priced between $25 and $350 exhibit the highest customer ratings and th
 This key product category includes:
 ![Most Advertised Product](Most%20Advertised%20Product.JPG)
 
+### Recommended Product Logic
+
+* **High Potential Customers:** If a customer has a predicted income in the top 25% of all customers **AND** their purchases in the last 6 months were greater than 1000, the recommended product is **"Leather Bag"**.
+
+* **Budget-Conscious Customers:** If a customer has a predicted income in the bottom 25% of all customers **AND** their purchases in the last 6 months were less than 100, the recommended product is **"Shirt"**.
+
+* **Other Customers:**  the recommended product is **"Sweater"**.
+
+![Distribution of Recommended Products](Distribution%20of%20Recommended%20Products.JPG)
+
+
 
